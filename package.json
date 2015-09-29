@@ -5,7 +5,7 @@
      "name": "My first sample extension",
      "description": "A sample Visual Studio Services extension.",
      "baseUri": "http://vsoextensiontest.azurewebsites.net/",
-     "publisher": "fabrikam",
+     "publisher": "Allen-Clark-at-Microsoft",
      "contributions": [
          {
              "id": "Fabrikam.HelloWorld",
