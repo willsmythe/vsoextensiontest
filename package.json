@@ -2,9 +2,9 @@
      "manifestVersion": 1,
      "id": "sample-extension",
      "version": "0.1.0",
-     "name": "My first sample extension",
+     "name": "Hello, World sample",
      "description": "A sample Visual Studio Services extension.",
-     "baseUri": "http://vsoextensiontest.azurewebsites.net/",
+     "baseUri": "https://vsoextensiontest.azurewebsites.net/",
      "publisher": "Allen-Clark-at-Microsoft",
      "contributions": [
          {
@@ -17,7 +17,7 @@
              "properties": {
                  "name": "Hello",
                  "order": 99,
-                 "uri": "index.html"
+                 "uri": "index.htm"
              }
          }
      ]
