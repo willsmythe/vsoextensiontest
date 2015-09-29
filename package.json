@@ -4,7 +4,7 @@
      "version": "0.1.0",
      "name": "My first sample extension",
      "description": "A sample Visual Studio Services extension.",
-     "baseUri": "https://localhost",
+     "baseUri": "http://vsoextensiontest.azurewebsites.net/",
      "publisher": "fabrikam"
      "contributions": [
          {
@@ -17,7 +17,7 @@
              "properties": {
                  "name": "Hello",
                  "order": 99,
-                 "uri": "hello-world.html"
+                 "uri": "index.html"
              }
          }
      ]
