@@ -1,11 +1,9 @@
-var   https = require("https");
+var   http = require("http");
 var   fs = require("fs");
 var   url = require("url");
+var   port = process.env.PORT || 1337;
 
-https.createServer({
-		key: fs.readFileSync("private.key").toString(),
-		cert: fs.readFileSync("certificate.pem").toString()
-	},
+http.createServer(
 	function (req, res) {
 		res.end(fs.readFileSync("./" + url.parse(req.url).pathname));
-	}).listen(8000);
+	}).listen(port);
