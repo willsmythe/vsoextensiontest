@@ -6,6 +6,9 @@
      "description": "A sample Visual Studio Services extension.",
      "baseUri": "https://vsoextensiontest.azurewebsites.net/",
      "publisher": "Allen-Clark-at-Microsoft",
+     "icons": {
+         "default": "images/logo.png"
+     }
      "contributions": [
          {
              "id": "Fabrikam.HelloWorld",
