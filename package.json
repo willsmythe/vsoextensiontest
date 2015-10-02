@@ -8,7 +8,7 @@
      "publisher": "Allen-Clark-at-Microsoft",
      "icons": {
          "default": "images/logo.png"
-     }
+     },
      "contributions": [
          {
              "id": "Fabrikam.HelloWorld",
