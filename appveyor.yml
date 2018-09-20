@@ -1,0 +1,15 @@
+version: '{build}'
+branches:
+  only:
+  - master
+skip_tags: true
+image: Visual Studio 2017
+environment:
+  VisualStudioVersion: 15.0
+  DeployExtension: false
+configuration: Release
+before_build:
+- ps: nuget restore src -Verbosity quiet
+build:
+  verbosity: minimal
+test: off
